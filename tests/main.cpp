@@ -1,4 +1,9 @@
+#include "TheaterTests.h"
+
 int main(int argc, char** argv)
 {
-    return 0;
+    int status = 0;
+    status |= QTest::qExec(new TheaterTests, argc, argv);
+
+    return status;
 }
