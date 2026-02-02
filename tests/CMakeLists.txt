@@ -1,4 +1,6 @@
 add_executable(booking_tests
+    BookingServiceTests.h
+    BookingServiceTests.cpp
     TheaterTests.h
     TheaterTests.cpp
     main.cpp
