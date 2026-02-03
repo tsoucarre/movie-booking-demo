@@ -1,5 +1,7 @@
 add_library(booking_core
+    include/BookingService.h
     include/Theater.h
+    BookingService.cpp
     Theater.cpp
 )
 
