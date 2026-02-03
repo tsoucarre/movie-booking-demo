@@ -1,4 +1,6 @@
 add_library(booking_core
+    include/Theater.h
+    Theater.cpp
 )
 
 target_include_directories(booking_core
