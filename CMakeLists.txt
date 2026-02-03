@@ -13,9 +13,10 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt6 QUIET COMPONENTS Core Test Concurrent)
+find_package(Qt6 QUIET COMPONENTS Core Test Concurrent Widgets)
 
 enable_testing()
 
 add_subdirectory(booking)
+add_subdirectory(gui)
 add_subdirectory(tests)
