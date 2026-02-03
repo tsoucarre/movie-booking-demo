@@ -18,5 +18,6 @@ find_package(Qt6 QUIET COMPONENTS Core Test Concurrent Widgets)
 enable_testing()
 
 add_subdirectory(booking)
+add_subdirectory(demo)
 add_subdirectory(gui)
 add_subdirectory(tests)
